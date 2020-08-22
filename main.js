@@ -6,3 +6,7 @@ toggleBtn.addEventListener("click", function () {
   menu.classList.toggle("active");
   sns.classList.toggle("active");
 });
+
+function imgSlider(anything) {
+  document.getElementById("slider").src = anything;
+}
